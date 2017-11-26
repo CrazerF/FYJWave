@@ -13,6 +13,7 @@
 		BCA4CD061FC675D400000661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA4CD051FC675D400000661 /* Assets.xcassets */; };
 		BCA4CD091FC675D400000661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA4CD071FC675D400000661 /* LaunchScreen.storyboard */; };
 		BCA4CD0C1FC675D400000661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA4CD0B1FC675D400000661 /* main.m */; };
+		BCA4CD141FC6761300000661 /* FYJWave.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA4CD131FC6761300000661 /* FYJWave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BCA4CD081FC675D400000661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA4CD0A1FC675D400000661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCA4CD0B1FC675D400000661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA4CD121FC6761300000661 /* FYJWave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYJWave.h; sourceTree = "<group>"; };
+		BCA4CD131FC6761300000661 /* FYJWave.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYJWave.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BCA4CD071FC675D400000661 /* LaunchScreen.storyboard */,
 				BCA4CD0A1FC675D400000661 /* Info.plist */,
 				BCA4CD0B1FC675D400000661 /* main.m */,
+				BCA4CD121FC6761300000661 /* FYJWave.h */,
+				BCA4CD131FC6761300000661 /* FYJWave.m */,
 			);
 			path = FYJWave;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA4CD141FC6761300000661 /* FYJWave.m in Sources */,
 				BCA4CD011FC675D400000661 /* ViewController.m in Sources */,
 				BCA4CD0C1FC675D400000661 /* main.m in Sources */,
 				BCA4CCFE1FC675D400000661 /* AppDelegate.m in Sources */,
@@ -281,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39R888NE98;
 				INFOPLIST_FILE = FYJWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fyj.FYJWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39R888NE98;
 				INFOPLIST_FILE = FYJWave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fyj.FYJWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
