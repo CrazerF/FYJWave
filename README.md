@@ -32,7 +32,7 @@
 
 ### 实现思路
 1. 定义一个View
-2. 运用CAShapeLayer画出静态正弦函数
+2. 运用CGMutablePathRef和CAShapeLayer画出静态正弦函数
 3. 运用帧刷新类CADisplayLink，不断的改变路径上的各个点，让波浪动起来
 4. 回调每一帧的中点值，可以增加动态的圆形等自定义视图
 
