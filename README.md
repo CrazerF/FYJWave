@@ -108,5 +108,4 @@ CADisplayLink、NSTimer执行的小动画，在拖动scrollView的时候动画�
     self.displayLink = nil;
     
     
- ### 欢迎点赞~
- 
+ # 如果觉得对你有帮助，不要吝啬你的Star噢~
